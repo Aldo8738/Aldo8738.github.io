@@ -22,7 +22,7 @@ header {
 }
 
 h3 {
-  font-size: 5rem;
+  font-size: 3rem;
   text-transform: uppercase;
   display: block;
   margin: 7rem;
@@ -34,14 +34,13 @@ h4 {
   font-size: 3rem;
   font-weight: 400;
   text-align: left;
-  margin-left: 3rem;
 }
 
 h5 {
   color: #7b7b7b;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-top: 2rem;
-  margin-left: 5rem;
+  margin-left: 4rem;
   text-transform: uppercase;
 }
 
@@ -49,7 +48,7 @@ h5 {
   position: fixed;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   font-size: 3rem;
   text-transform: uppercase;
   right: 0;
@@ -59,16 +58,11 @@ h5 {
   z-index: 1000;
 }
 
-#about {
-  margin: 0;
-}
-
 .navbar > li {
-  margin: 3rem;
   transform: rotate(90deg);
   padding: 0;
-  position: relative;
-  text-align: center;
+
+  font-size: 2rem;
 }
 .navbar > li:hover {
   color: #fff;
@@ -79,23 +73,23 @@ h5 {
 
 .title {
   position: absolute;
+  padding-left: 4rem;
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
-  font-size: 15rem;
-  width: 66rem;
+  font-size: 10rem;
+  width: 60rem;
   letter-spacing: 10rem;
   word-wrap: break-word;
   margin-left: 7rem;
-  padding: 0;
 }
 
 .subtitle {
   position: absolute;
-  font-size: 5rem;
+  font-size: 3rem;
   bottom: 6vh;
-  width: 90rem;
+  width: 60rem;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -112,6 +106,7 @@ h5 {
   position: absolute;
   bottom: 0rem;
   border: 0.05rem solid #7b7b7b3f;
+  z-index: 900;
 }
 
 .arrow {
@@ -119,19 +114,20 @@ h5 {
   bottom: 1rem;
   left: 50%;
   transform: translate(-50%, -50%);
+  height: 2rem;
 }
 
 .about {
-  height: 170rem;
+  height: 135rem;
   position: relative;
   text-transform: uppercase;
-  font-size: 5rem;
+  font-size: 3.5rem;
   text-align: left;
 }
 
 .about-text {
   display: flexbox;
-  width: 90rem;
+  width: 65rem;
   height: 120rem;
   top: 10rem;
   left: 50%;
@@ -147,9 +143,9 @@ h5 {
   left: 50%;
   text-align: left;
   text-transform: capitalize;
-  letter-spacing: 1rem;
-  line-height: 8rem;
-  width: 85rem;
+  letter-spacing: 0.5rem;
+  line-height: 5rem;
+  width: 55rem;
   font-weight: 400;
 }
 
@@ -161,7 +157,7 @@ h5 {
 .skills-list {
   margin-left: 5rem;
   margin-top: 3rem;
-  font-size: 5rem;
+  font-size: 3rem;
   text-align: left;
   text-transform: none;
   line-height: 9rem;
@@ -169,15 +165,13 @@ h5 {
 
 .process {
   min-height: 170rem;
-  display: block;
 }
 
 .accordion {
   background-color: inherit;
   color: #dbdbdb;
   cursor: pointer;
-  padding: 18px;
-  width: 100%;
+
   text-align: left;
   border: none;
   outline: none;
@@ -186,8 +180,17 @@ h5 {
   height: 25rem;
   text-transform: uppercase;
   display: flex;
+  position: relative;
 }
 
+.small-arrow {
+  height: 1.5rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 50%;
+}
 .accordion-nocursor {
   background-color: inherit;
   color: #dbdbdb;
@@ -205,7 +208,7 @@ h5 {
 }
 
 .accordion-wrapper {
-  width: 140rem;
+  width: 90rem;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -213,6 +216,7 @@ h5 {
 
 .accordion-left {
   width: 50%;
+  font-size: 2.5rem;
 }
 
 .accordion-right {
@@ -220,6 +224,11 @@ h5 {
   font-size: 3rem;
   text-transform: none;
   color: #676767;
+  font-size: 2.5rem;
+}
+
+.mockup {
+  height: 40rem;
 }
 
 .accordion:hover {
@@ -337,15 +346,15 @@ h6 {
 }
 
 .contact {
-  height: 60rem;
+  height: 40rem;
 }
 
 .contact-list {
-  font-size: 4rem;
+  font-size: 2rem;
   margin-left: 10rem;
   font-weight: 500;
   list-style: none;
-  line-height: 15rem;
+  line-height: 7rem;
   text-decoration: none;
 }
 
@@ -368,16 +377,16 @@ a {
   border-radius: 10px;
   z-index: 10;
   background-color: white;
-  width: 150rem;
-  height: 83rem;
+  width: 105rem;
+  height: 55rem;
   z-index: 5000;
 }
 
 .modal-title {
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 2.5rem;
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 2rem;
   width: 100%;
 }
 
@@ -395,7 +404,7 @@ a {
 }
 
 .modal-header .title {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -418,13 +427,13 @@ a {
 }
 
 .modal-content {
-  padding: 1rem 3rem 0 6rem;
-  font-size: 3rem;
+  padding: 0.3rem 3rem 0 4rem;
+  font-size: 2rem;
   font-weight: 300;
   font-family: "Courier New", Courier, monospace;
   width: 100%;
   color: #c1c1c1;
-  line-height: 4rem;
+  line-height: 2.5rem;
 }
 
 .modal-pic {
@@ -437,9 +446,9 @@ a {
 }
 
 .mockup-button {
-  width: 25rem;
-  height: 6rem;
-  font-size: 2rem;
+  width: 20rem;
+  height: 4rem;
+  font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   border: none;
@@ -457,7 +466,7 @@ a {
 
 .mockup-button:hover {
   background-color: #7b7b7b;
-  box-shadow: 0px 15px 20px rgba(110, 116, 113, 0.4);
+  box-shadow: 0px 15px 20px rgba(110, 116, 113, 0.178);
   color: #fff;
   transform: translateY(-7px);
 }
@@ -502,3 +511,36 @@ a {
   opacity: 1;
   pointer-events: all;
 }
+/*
+@media only screen and (min-width: 600px) {
+  /* For tablets: 
+  .navbar {
+    width: 6rem;
+    height: 80%;
+    row-gap: 3rem;
+  }
+
+  .navbar > li {
+    font-size: 2.5rem;
+  }
+
+  .title {
+    font-size: 12rem;
+    width: 60rem;
+    padding-left: 4rem;
+  }
+
+  .subtitle {
+    font-size: 4rem;
+    width: 60rem;
+  }
+
+  .arrow {
+    height: 2rem;
+  }
+
+  ..hello {
+    width: 30rem;
+  }
+}
+*/
