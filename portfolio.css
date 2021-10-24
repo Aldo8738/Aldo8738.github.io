@@ -259,10 +259,21 @@ h5 {
   width: 100%;
 }
 .sitemap {
-  width: 90rem;
+  width: 60rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.figma {
+  width: 20rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 45px;
+  margin: auto;
 }
 
 .center {
@@ -270,21 +281,22 @@ h5 {
 }
 
 .scope-left {
-  width: 60rem;
+  width: 25rem;
   height: 50rem;
   padding-left: 3rem;
 }
 .scope-right {
-  width: 60rem;
+  width: 25rem;
   height: 50rem;
 }
 
 .scope-list {
   padding-top: 5rem;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #676767;
-  width: 55rem;
-  line-height: 6rem;
+  width: 35rem;
+  line-height: 4rem;
+  padding-bottom: 4rem;
 }
 
 h6 {
