@@ -178,7 +178,7 @@ h5 {
   outline: none;
   font-size: 4rem;
   transition: 0.4s;
-  height: 33rem;
+  height: 27rem;
   text-transform: uppercase;
   display: flex;
   position: relative;
@@ -209,19 +209,19 @@ h5 {
 }
 
 .accordion-wrapper {
-  width: 80rem;
+  width: 85rem;
   margin: auto;
   display: flex;
   flex-direction: column;
 }
 
 .accordion-left {
-  width: 50%;
+  width: 40%;
   font-size: 2.5rem;
 }
 
 .accordion-right {
-  width: 50%;
+  width: 60%;
   font-size: 3rem;
   text-transform: none;
   color: #676767;
