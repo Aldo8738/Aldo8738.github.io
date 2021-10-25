@@ -147,6 +147,7 @@ h5 {
   line-height: 5rem;
   width: 55rem;
   font-weight: 400;
+  margin-top: 3rem;
 }
 
 .skills {
@@ -177,7 +178,7 @@ h5 {
   outline: none;
   font-size: 4rem;
   transition: 0.4s;
-  height: 27rem;
+  height: 29rem;
   text-transform: uppercase;
   display: flex;
   position: relative;
@@ -208,7 +209,7 @@ h5 {
 }
 
 .accordion-wrapper {
-  width: 90rem;
+  width: 80rem;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -542,7 +543,7 @@ a {
   pointer-events: all;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .navbar {
     width: 6rem;
     height: 80%;
